@@ -1,0 +1,12 @@
+Factory Design pattern is based on Encapsulation object oriented concept.
+Factory method is used to create different object from factory often refereed as Item and it encapsulate the creation code.
+So instead of having object creation code on client side we encapsulate inside Factory method in Java
+
+Also known as Static factory method / Simple factory
+
+Real World Example :
+Imagine an alchemist who is about to manufacture coins.
+The alchemist must be able to create both gold and copper coins and switching between them
+must be possible without modifying the existing source code.
+The factory pattern makes it possible by providing a static construction method
+which can be called with relevant parameters.
